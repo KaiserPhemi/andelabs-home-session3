@@ -1,0 +1,22 @@
+{
+  "name": "andelabs3-q2",
+  "version": "1.0.0",
+  "description": "A program to return missing number in array",
+  "main": "app/findMissing.js",
+  "scripts": {
+    "test": "jasmine-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KaiserPhemi/andelabs-home-session3.git"
+  },
+  "keywords": [
+    "array"
+  ],
+  "author": "Oluwafemi Akinwa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KaiserPhemi/andelabs-home-session3/issues"
+  },
+  "homepage": "https://github.com/KaiserPhemi/andelabs-home-session3#readme"
+}
