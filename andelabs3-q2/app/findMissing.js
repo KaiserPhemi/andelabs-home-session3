@@ -11,6 +11,13 @@
 
 			/*Function to compute difference*/
 			function findDifference(array1, array2){
+				var filteredArr1 = array1.filter(function(element){
+					return array2.indexOf(element) == -1;}),
+
+					filteredArr2 = array2.filter(function(element){
+						return array1.indexOf(element) == -1;});
+
+				return parseInt((filteredArr1.concat(filteredArr2)), 10);
 
 			
 			}
