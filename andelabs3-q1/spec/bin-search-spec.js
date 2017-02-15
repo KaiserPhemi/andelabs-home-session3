@@ -1,3 +1,7 @@
+'use strict';
+
+[].prototype = require('../app/bin-search');
+
 describe('Binary Search to traverse an ordered list, effectively', function() {
   describe('Populate the arrays with valid content', function() {
     
