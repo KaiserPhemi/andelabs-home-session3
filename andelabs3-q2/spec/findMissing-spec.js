@@ -1,4 +1,19 @@
+'use strict';
+
+var findMissing = require('../app/findMissing').findMissing;
+
 describe("Find missing number two lists: ", function() {
+
+  describe("Case for inputs other than arrays", function(){
+
+    it("should return `Inputs must be an array` for numeric input (5, -8)", function(){
+      expect(findMissing(5, -8)).toEqual("Inputs must be an array");
+    });
+
+    it("should return `Inputs must be an array` for string inputs ('femi', 'akinwa')", function(){
+      expect(findMissing('femi', 'akinwa')).toEqual("Inputs must be an array");
+    });
+  });
 
   describe("Case for en empty list", function() {
 
