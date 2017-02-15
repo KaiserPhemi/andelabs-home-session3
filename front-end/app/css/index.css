@@ -1,6 +1,73 @@
 @import url('https://fonts.googleapis.com/css?family=Oxygen');
 
 *{
+	box-sizing: border-box;
 	font-family: 'Oxygen', sans-serif;
 	
+}
+
+/*********************************************
+**********************************************
+**Styling for Navigation bar				**
+**											**
+**********************************************/
+.navi-bar{
+	padding-bottom: 0;
+}
+
+.logo{
+	width: 60px;
+	border-radius: 50%;
+	position: relative;
+	padding-bottom: 0;
+}
+
+.main-links{
+	font-weight: bold;
+	color: rgb(0, 0, 0);
+	padding-bottom: 0;
+}
+
+
+/*********************************************
+**********************************************
+**Styling for Navigation page				**
+**											**
+**********************************************/
+
+
+.main-body{
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.article-header{
+	font-weight: bold;
+}
+
+
+
+/*********************************************
+**********************************************
+**Styling for mobile devices				**
+**											**
+**********************************************/
+
+/*----Android Devices---*/
+/* Portrait and Landscape */
+@media screen and (max-width: 768px) 
+ {
+ 	*{
+		box-sizing: border-box;
+		font-family: 'Oxygen', sans-serif;
+		font-size: 1.1em;
+	
+	}
+
+ 	.main-body{
+		border: 1px solid black;
+		border-radius: 5px;
+		margin: 0 10px;
+	}
+
 }

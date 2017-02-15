@@ -56,28 +56,39 @@
 			currentElement;
 
 		while(baseIndex <= maxIndex){
-				
-				currentIndex = Math.floor((baseIndex + maxIndex)/2);
+
+				/*Splits array in half*/				
+				currentIndex = Math.floor((baseIndex + maxIndex)/2); 
 				currentElement = this[currentIndex];
 
 				/*Checks for index of search element*/
 				if (this[baseIndex] === element){
+					
 					this.index = baseIndex;
+					break;
 				}
 				else if(this[maxIndex] === element){
+					
 					this.index = maxIndex;
+					break;
 				}
 				else{
+					
 					this.index = currentIndex;
+					break;
 				}
 
 			
 				/*Checks either half of array*/
 				if (currentElement < element){
-					baseIndex = currentIndex + 1;
+					
+					aseIndex = currentIndex + 1;
+					break;
 				}
 				else if (currentElement > element){
+					
 					maxIndex = currentIndex - 1;
+					break;
 				}
 				
 				this.count++;

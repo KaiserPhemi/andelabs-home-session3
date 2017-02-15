@@ -11,14 +11,61 @@
 	
 	<body>
 		
-		<div>
-			<div class="nav">Main Header</div>
-		</div>
-		<div class="container">
-			<p>This is the main body</p>
-		</div>
-		<div></div>
-		
+		<!--Navigation bar-->
+		<nav class="navbar navbar-default container-fluid navi-bar">
+			
+			<!--Logo-->
+			<div>
+          		<a href="index.html">
+            		<img src="img/logo.jpg" class="brand brand-name navbar-left img-responsive logo">
+          		</a>
+        	</div>
+
+        	<!--Collapsible navigation links-->
+	        <span>
+	          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#ham-menu" aria-expanded="false">
+	            <!--Creates a Hamburger menu-->
+	            <span class="sr-only">Toggle navigation</span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	          </button>
+	        </span>
+			
+			<!--Navigation links-->
+			<div class="collapse navbar-collapse main-links">
+				<ul class="nav navbar-nav navbar-right nav-tran upper-links" >
+					<li class="active"><a href="index.html">Home</a></li>
+					<li><a href="#">About Me</a></li>
+					<li><a href="#">Contact</a></li>
+		        </ul>
+        	</div>
+		</nav>
+
+		<!--Main body of page-->
+		<section class="container main-body">
+			<article class="row col-md-4">
+				<h3 class="article-header">About Me</h3>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec suscipit neque. Praesent sollicitudin neque tellus, id imperdiet ex eleifend nec. Etiam sed tristique nisl, a scelerisque urna. Donec mattis sagittis mauris ultrices vehicula. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas sit amet ex augue. Integer accumsan velit ut porta fermentum. Quisque ac dolor vitae lacus porta aliquam.
+				</p>
+			</article>
+
+			<article class="row col-md-4">
+				<h3 class="article-header">News</h3>
+				<p>
+					Aliquam sagittis lorem quis scelerisque suscipit. Aliquam vel rutrum nisi. Duis vulputate bibendum felis id rutrum. Aliquam erat volutpat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed pellentesque lorem eu massa vehicula, eu consequat quam consectetur. Maecenas imperdiet nunc felis, at cursus justo tincidunt a. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus ultrices rhoncus nunc, ut tempor nisi mattis a.
+				</p>
+			</article>
+			
+			<article class="row col-md-4">
+				<h3 class="article-header">Contact</h3>
+				<p>
+					Planet Osiris, Milky Way Galaxy, Universe.
+				</p>
+			</article>		
+		</section>
+				
 		<footer></footer>
 
 		<script src="js/jquery-3.1.1.min.js"></script>
