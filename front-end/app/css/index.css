@@ -12,14 +12,14 @@
 **											**
 **********************************************/
 .navi-bar{
-	padding-bottom: 0;
+	
 }
 
 .logo{
 	width: 60px;
 	border-radius: 50%;
 	position: relative;
-	padding-bottom: 0;
+	
 }
 
 .main-links{
@@ -28,10 +28,14 @@
 	padding-bottom: 0;
 }
 
+.upper-links{
+	padding-bottom: 0;
+}
+
 
 /*********************************************
 **********************************************
-**Styling for Navigation page				**
+**Styling for Main page      				**
 **											**
 **********************************************/
 
