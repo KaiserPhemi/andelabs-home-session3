@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Oxygen');
 
-*{
+html, body{
 	box-sizing: border-box;
 	font-family: 'Oxygen', sans-serif;
+	height: 100%;
 	
 }
 
@@ -39,14 +40,30 @@
 **											**
 **********************************************/
 
-
+/*Main body*/
 .main-body{
-	border: 1px solid black;
-	border-radius: 5px;
+	border-radius: 1px;
+	min-height: 100%;
+	margin-bottom: -100px;
 }
 
+.main-body:after {
+    content: "";
+    display: block;
+    height: 100px;
+}
+
+/*Article within a page*/
 .article-header{
 	font-weight: bold;
+}
+
+/*Footer*/
+
+.footer{
+	margin-top: 20px;
+	height: 100px;
+    background: #eee;
 }
 
 
